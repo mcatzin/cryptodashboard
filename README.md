@@ -72,3 +72,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 1. Setup APP component
    1. create AppLayout component
    2. create AppBar component
+2. AppBat Styles
+   1. create Logo style component
+   2. creaate Bar style component
+   3. create ControlButtonElement
+   4. create ControlButton function
+   5. create toProperCase function
