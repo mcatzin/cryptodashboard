@@ -71,3 +71,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 1. Setup APP component
    1. create AppLayout component
+   2. create AppBar component
