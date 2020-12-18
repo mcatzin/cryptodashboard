@@ -1,18 +1,42 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
+
+const Logo = styled.div`
+  font-size: 1.5rem;
+`;
 
 const Bar = styled.div`
   display: grid;
-  grid-template-columns: 180px auto 100px 100px;
+  grid-template-columns: 220px auto 100px 100px;
 `;
+const ControlButtonElement = styled.div`
+  cursor: pointer;
+  ${(props) =>
+    props.active &&
+    css`
+      text-shadow: 0px 0px 60px #ffffff;
+      color: #0f9994;
+    `}
+`;
+
+function toProperCase(lower) {
+  return lower.charAt(0).toUpperCase() + lower.substr(1);
+}
+function ControlButton({ name, active }) {
+  return (
+    <ControlButtonElement active={active}>
+      {toProperCase(name)}
+    </ControlButtonElement>
+  );
+}
 
 export default function () {
   return (
     <Bar>
-      <div>CryptoDash</div>
+      <Logo>Crypto Dashboard</Logo>
       <div></div>
-      <div>Dashboard</div>
-      <div>Setting</div>;
+      <ControlButton active name="dashboard" />
+      <ControlButton name="settings" />
     </Bar>
   );
 }
