@@ -84,3 +84,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
    1. create Settings/index.js
    2. import WelcomeMessage
    3. create ConfirmButton
+5. LocalStorage
+   1. create savedSettings function
+   2. create confirmFavorites
+6. CryptoCompare
+   1. npm install cryptocompare

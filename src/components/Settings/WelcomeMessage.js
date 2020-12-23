@@ -1,5 +1,5 @@
 import React from "react";
-import { AppContext } from "../../APP/AppProvider";
+import { AppContext } from "../../App/AppProvider";
 
 export default function Welcome({ firstVisit }) {
   return (
