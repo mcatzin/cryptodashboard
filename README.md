@@ -108,3 +108,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     1. create CoinHeaderGrid
 14. CoinImage
     create CointImage
+15. TopSection
+    1. add topSection to CoinGrid, CoinTile, and CoinHeaderGrid
+16. ADD/REMOVE coins
+    1. npm install --save lodash
+    2. create addCoin function
+    3. create removeCoin funciton and implement lodash
