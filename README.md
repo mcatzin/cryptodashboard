@@ -95,3 +95,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 8. Content Component
    1. create Content component
    2. import Content component in App/index.js
+9. CoinGrid
+   1. Create CoindGrid Styled Component
