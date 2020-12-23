@@ -97,3 +97,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
    2. import Content component in App/index.js
 9. CoinGrid
    1. Create CoindGrid Styled Component
+   2. Add CoinGrid to Settings/index.js
+10. Setting style
+    1. create Style.js
+11. Tile
