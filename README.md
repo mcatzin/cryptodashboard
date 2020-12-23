@@ -89,3 +89,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
    2. create confirmFavorites
 6. CryptoCompare
    1. npm install cryptocompare
+7. Page Component
+   1. create a Share folder
+   2. create Page component
+8. Content Component
+   1. create Content component
+   2. import Content component in App/index.js
