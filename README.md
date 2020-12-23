@@ -101,3 +101,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 10. Setting style
     1. create Style.js
 11. Tile
+    1. create Tile component
+12. CointTile component
+    1. create coinTile
+13. CoinHeaderGrid
+    1. create CoinHeaderGrid
+14. CoinImage
+    create CointImage
