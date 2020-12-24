@@ -13,7 +13,7 @@ export class AppProvider extends React.Component {
     this.state = {
       page: "dashboard",
       favorites: ["BTC", "ETH", "LTC", "DOGE"],
-      ...this.savedSettings(),
+      ...this.savedSettings(), // overriding properties depending on localStorage
       addCoin: this.addCoin,
       setPage: this.setPage,
       removeCoin: this.removeCoin,

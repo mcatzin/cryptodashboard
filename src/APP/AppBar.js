@@ -9,6 +9,12 @@ const Logo = styled.div`
 const Bar = styled.div`
   display: grid;
   grid-template-columns: 220px auto 100px 100px;
+  @media screen and (max-width: 575px) {
+    grid-template-columns: 1fr;
+    grid-column: auto;
+    grid-row: auto;
+    row-gap: 5px;
+  }
 `;
 const ControlButtonElement = styled.div`
   cursor: pointer;
