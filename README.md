@@ -114,3 +114,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     1. npm install --save lodash
     2. create addCoin function
     3. create removeCoin funciton and implement lodash
+17. setFilteredCoin
+    1. create setFilteredCoin in AppProvider
+    2. create filteredCoins and handleFilter
+    3. npm install --save fuzzy

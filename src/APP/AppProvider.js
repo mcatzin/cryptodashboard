@@ -19,6 +19,7 @@ export class AppProvider extends React.Component {
       removeCoin: this.removeCoin,
       confirmFavorites: this.confirmFavorites,
       isInFavorites: this.isInFavorites,
+      setFilteredCoins: this.setFilteredCoins,
     };
   }
 
@@ -63,6 +64,7 @@ export class AppProvider extends React.Component {
   }
   setPage = (page) => this.setState({ page });
 
+  setFilteredCoins = (filteredCoins) => this.setState({ filteredCoins });
   render() {
     return (
       <AppContext.Provider value={this.state}>
